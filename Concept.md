@@ -1,4 +1,3 @@
-Sure! Below is a sample `README.md` file styled using Markdown. It highlights the most commonly used concepts in JavaScript.
 
 ```markdown
 # JavaScript Concepts
