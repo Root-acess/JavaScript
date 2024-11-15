@@ -1,6 +1,6 @@
 
 ```markdown
-## JavaScript Concepts
+#JavaScript Concepts
 
 This guide covers the most commonly used concepts in JavaScript. It includes essential topics that every JavaScript developer should know, from variables and functions to asynchronous programming and error handling.
 
