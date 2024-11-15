@@ -1,7 +1,7 @@
 
 ```markdown
 
-# JavaScript Concepts
+#JavaScript Concepts#
 
 This guide covers the most commonly used concepts in JavaScript. It includes essential topics that every JavaScript developer should know, from variables and functions to asynchronous programming and error handling.
 
@@ -33,7 +33,7 @@ JavaScript supports various types of data, and it allows you to declare variable
 
 ### Declaring Variables
 
-```js
+```
 let name = "John";  // mutable variable
 const age = 30;     // immutable constant
 var address = "New York";  // old declaration (not recommended)
