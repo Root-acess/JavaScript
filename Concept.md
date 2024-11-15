@@ -31,13 +31,17 @@ This guide covers the most commonly used concepts in JavaScript. It includes ess
 
 JavaScript supports various types of data, and it allows you to declare variables in multiple ways.
 
+
+
 ### Declaring Variables
+
 
 ```
 let name = "John";  // mutable variable
 const age = 30;     // immutable constant
 var address = "New York";  // old declaration (not recommended)
 ```
+
 
 ### Data Types
 
@@ -46,11 +50,14 @@ var address = "New York";  // old declaration (not recommended)
 
 ---
 
+
 ## Functions
 
 Functions are a fundamental part of JavaScript. They allow you to create reusable blocks of code.
 
+
 ### Function Declaration
+
 
 ```js
 function greet() {
@@ -58,6 +65,7 @@ function greet() {
 }
 greet();
 ```
+
 
 ### Arrow Functions
 
@@ -69,6 +77,7 @@ greet();
 ```
 
 ### Higher-Order Functions
+
 
 A higher-order function can accept other functions as arguments or return a function.
 
@@ -82,7 +91,9 @@ function applyToEach(arr, fn) {
 
 ## Objects and Arrays
 
+
 Objects and arrays are used to store and manipulate data.
+
 
 ### Objects
 
@@ -98,6 +109,7 @@ const person = {
 
 ### Arrays
 
+
 ```js
 const numbers = [1, 2, 3, 4, 5];
 numbers.forEach(num => console.log(num));
@@ -107,7 +119,9 @@ numbers.forEach(num => console.log(num));
 
 ## Event Handling
 
+
 JavaScript allows you to handle user interactions via events.
+
 
 ### Adding Event Listeners
 
@@ -121,7 +135,9 @@ document.querySelector("#button").addEventListener("click", function() {
 
 ## DOM Manipulation
 
+
 Manipulating the DOM (Document Object Model) allows you to change the content and structure of a web page.
+
 
 ### Selecting Elements
 
@@ -130,7 +146,9 @@ const title = document.querySelector("h1");
 title.textContent = "Updated Title";
 ```
 
+
 ### Modifying Styles
+
 
 ```js
 const element = document.querySelector(".box");
@@ -139,9 +157,11 @@ element.style.backgroundColor = "blue";
 
 ---
 
+
 ## Conditionals and Loops
 
 JavaScript provides several ways to make decisions and loop through data.
+
 
 ### Conditional Statements
 
